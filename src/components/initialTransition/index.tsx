@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const blackBox = {
+const orangeBox = {
   initial: {
     height: '100%',
     bottom: 0,
@@ -44,10 +44,10 @@ const text = {
 const InitialTransition = () => {
   return (
     <motion.div
-      className='fixed z-50 flex items-center justify-center w-full bg-black  '
+      className='fixed z-50 flex items-center justify-center w-full bg-[#ff7600]  '
       initial='initial'
       animate='animate'
-      variants={blackBox}
+      variants={orangeBox}
       onAnimationStart={() => document.body.classList.add('overflow-hidden')}
       onAnimationComplete={() =>
         document.body.classList.remove('overflow-hidden')
@@ -74,7 +74,7 @@ const InitialTransition = () => {
           y='50%'
           style={{ fill: 'url(#pattern)' }}
         >
-          Davido
+          Stripe
         </text>
       </motion.svg>
     </motion.div>

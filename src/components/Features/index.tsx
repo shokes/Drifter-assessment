@@ -1,6 +1,7 @@
 // feature component
 import featuresData from '../../data/featuresData';
 import { Wrapper, Content } from './index.styles';
+import { HiOutlineMinus } from 'react-icons/hi';
 
 const Features = () => {
   return (
@@ -12,15 +13,17 @@ const Features = () => {
 
         return (
           <Content key={id}>
-            <header className='relative'>
+            <header>
               <img src={icon} alt={heading} className='mb-4' />
-              <h2 className='font-semibold text-headingColor mb-2 '>
+
+              <h2 className=' relative font-bold text-headingColor mb-2 '>
                 {' '}
-                {heading}{' '}
+                {heading}
+                <span>
+                  {' '}
+                  <HiOutlineMinus className='text-2xl  rotate-90 text-[#ff7600] z-20 -left-[28.5px] -top-[1px] absolute' />{' '}
+                </span>
               </h2>
-              <div className='text-[#ff7600] -left-[18px] top-[50px] h-[64px] absolute'>
-                |
-              </div>
             </header>
 
             <p className='text-contentColor font-normal'>{content}</p>
