@@ -4,6 +4,12 @@ import { Container, SolidLine, Dotted } from './App.styles';
 function App() {
   return (
     <Container>
+      <head>
+        <title>
+          Stripe Atlas | Incorporate your startup in Delaware: C corp or LLC
+        </title>
+      </head>
+
       <SolidLine className='  absolute right-0  '></SolidLine>
       <SolidLine className=' absolute left-0 '></SolidLine>
       <Dotted className=' hidden md:block absolute left-1/2 '></Dotted>

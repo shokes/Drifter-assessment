@@ -7,6 +7,10 @@
 - Tailwind CSS
 - Framer motion
 
+## Live:
+
+[Live Site](https://sparkly-cendol-54867c.netlify.app/)
+
 ## Screenshot
 
 ![Home page](</src/images/screenshot/Screenshot%20(109).png>)
