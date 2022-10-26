@@ -8,7 +8,7 @@ export const Wrapper = styled.main`
   flex-direction: column;
   padding-top: 30px;
 
-  @media ${devices.laptop} {
+  @media ${devices.small} {
     flex-direction: row;
   }
 `;

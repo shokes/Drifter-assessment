@@ -4,7 +4,6 @@ import access from '../images/icons/access.png';
 import grow from '../images/icons/grow.png';
 
 // data for the feature component
-
 const featuresData: featureDataType[] = [
   {
     id: 1,
