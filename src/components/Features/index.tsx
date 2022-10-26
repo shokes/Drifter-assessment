@@ -21,7 +21,7 @@ const Features = () => {
                 {heading}
                 <span>
                   {' '}
-                  <HiOutlineMinus className='text-2xl  rotate-90 text-[#ff7600] z-20 -left-[28.5px] -top-[1px] absolute' />{' '}
+                  <HiOutlineMinus className='text-xl  rotate-90 text-[#ff7600] z-20 -left-[26.9px] top-[2px] absolute' />{' '}
                 </span>
               </h2>
             </header>
