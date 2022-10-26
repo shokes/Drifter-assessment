@@ -16,7 +16,7 @@ const Features = () => {
             <header>
               <img src={icon} alt={heading} className='mb-4' />
 
-              <h2 className=' relative font-bold text-headingColor mb-2 '>
+              <h2 className=' relative font-semibold  mb-2 '>
                 {' '}
                 {heading}
                 <span>
@@ -26,7 +26,7 @@ const Features = () => {
               </h2>
             </header>
 
-            <p className='text-contentColor font-normal'>{content}</p>
+            <p className='font-normal'>{content}</p>
           </Content>
         );
       })}

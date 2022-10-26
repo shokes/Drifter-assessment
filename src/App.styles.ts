@@ -5,7 +5,7 @@ const Container = styled.div`
   max-width: 97%;
   font-family: 'Roboto', sans-serif;
   padding: 0;
-
+  color: #343a40;
   box-sizing: border-box;
   margin: 0 auto 0 auto;
   position: relative;

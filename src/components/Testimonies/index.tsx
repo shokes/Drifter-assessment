@@ -21,9 +21,11 @@ const Testimonies = () => {
                     className='h-full  rounded-l-lg'
                   />
                   <div className='flex flex-col text-xs  md:text-sm py-14 px-3 '>
-                    <blockquote className='mb-1'>"{quote}"</blockquote>
+                    <blockquote className='mb-1  '>
+                      "{quote}"
+                    </blockquote>
 
-                    <div className=' text-contentColor'>
+                    <div className=' '>
                       <span className='font-semibold whitespace-nowrap '>
                         {name},
                       </span>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { devices } from '../../devices';
 
 // a Wrapper component that'll render a <section> tag with some styles
- const Wrapper = styled.section`
+const Wrapper = styled.section`
   margin-bottom: 120px;
   padding-left: 18px;
   padding-right: 18px;
@@ -27,4 +27,4 @@ const Content = styled.div`
   letter-spacing: 0.2px;
 `;
 
-export {Wrapper, Content}
+export { Wrapper, Content };
